@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>iintoo</title>
+</head>
+<body>
+	<main>
+		<img class='column' src="https://raw.githubusercontent.com/jm-program/css-task/master/img/bg.jpg" alt="iinto invest togeter">
+		<img src="https://raw.githubusercontent.com/jm-program/css-task/master/img/logo.svg" alt="Logo">
+		<section class='column'>
+			<form id='signup' action="createAccount">
+				<article>
+					<h1>Get iintoo it today</h1>
+					<h3>There is no charge or obligation upon registration.</h3>
+				</article>
+				<fieldset>
+					<button type="button" id='facebook'><span class='button__icon'>f </span>Register with Facebook</button><button type="button" id='linkedin'><span class='button__icon'>in </span>Register with LinkedIn</button>
+				</fieldset>
+				<div class="splitter">
+					<h5>OR</h5>
+				</div>
+				<fieldset>
+					<div class="email">
+						<h4 class="email__label">Email</h4>
+						<input type="email" name="email" id="email" placeholder='gus.goodwin@gmail.com' required>
+					</div>
+					<div class="phone">
+						<h4 class="phone__label">Phone</h4>
+						<input type="tel" name="phone" id="phone" required>
+					</div>
+				</fieldset>
+				<article>
+					<h2>What type of investor are you?</h2>
+					<h4>Select the type of investor you are below.</h4>
+				</article>
+				<fieldset class="radio">
+					<div class='radio__switch'>
+						<div class="element-with-label">
+							<input type="radio" checked="checked" name="type" id="individual">
+							<label for="individual">Individual</label>
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="30px">
+								<use xlink:href="#info" />
+								<symbol id="info">
+									<g fill="#919191" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+										<g transform="scale(5.12,5.12)">
+											<path d="M25,2c-12.6907,0 -23,10.3093 -23,23c0,12.69071 10.3093,23 23,23c12.69071,0 23,-10.30929 23,-23c0,-12.6907 -10.30929,-23 -23,-23zM25,4c11.60982,0 21,9.39018 21,21c0,11.60982 -9.39018,21 -21,21c-11.60982,0 -21,-9.39018 -21,-21c0,-11.60982 9.39018,-21 21,-21zM25,11c-1.65685,0 -3,1.34315 -3,3c0,1.65685 1.34315,3 3,3c1.65685,0 3,-1.34315 3,-3c0,-1.65685 -1.34315,-3 -3,-3zM21,21v2h1h1v13h-1h-1v2h1h1h4h1h1v-2h-1h-1v-15h-1h-4z"></path>
+										</g>
+									</g>
+								</symbol>
+							</svg>
+						</div>
+						<div class="element-with-label">
+							<input type="radio" name="type" id="business">
+							<label for="business">Business </label>
+							<svg viewBox="0,0,256,256" width="30px" height="30px" fill-rule="nonzero">
+								<use xlink:href="#info" />
+							</svg>
+						</div>
+						<div class="element-with-label">
+							<input type="radio" name="type" id="ira">
+							<label for="ira">IRA </label>
+							<svg viewBox="0,0,256,256" width="30px" height="30px" fill-rule="nonzero">
+								<use xlink:href="#info" />
+							</svg>
+						</div>
+						<div class="element-with-label">
+							<input type="radio" name="type" id="trust">
+							<label for="trust">Trust </label>
+							<svg viewBox="0,0,256,256" width="30px" height="30px" fill-rule="nonzero">
+								<use xlink:href="#info" />
+							</svg>
+						</div>
+					</div>
+					<article class='radio__info'>
+						<p>I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.</p>
+					</article>
+				</fieldset>
+				<article class='element-with-label'>
+					<input type="checkbox" name="terms" id="terms">
+					<label for="terms"><p>I agree to the terms and receiving notification from iintoo <a href='#'>View full terms</a></p></label>
+				</article>
+				<button form="signup" type="submit container">Create Account</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>
