@@ -68,7 +68,7 @@ label {
 input {
   color: #111;
 }
-.terms>*,
+[for='terms'],
 p {
   color: #7b8a92;
   font-size: 1rem;
